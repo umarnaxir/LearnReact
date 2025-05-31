@@ -2,10 +2,10 @@ import React from "react";
 
 function StudentList() {
   const students = [
-    { name: "Umar", email: "umar@gmail.com", contact: 9876554321 },
-    { name: "Khalid", email: "khalid@gmail.com", contact: 12234567890 },
-    { name: "Owais", email: "owais@gmail.com", contact: 7890654321 },
-    { name: "OTL", email: "otl@gmail.com", contact: 9875632568 },
+    { name: "Umar", email: "umar@gmail.com", contact: 9999988888, },
+    { name: "Khalid", email: "khalid@gmail.com", contact: 9999988888 },
+    { name: "Owais", email: "owais@gmail.com", contact: 9999988888 },
+    { name: "OTL", email: "otl@gmail.com", contact: 9999988888 },
   ];
 
   return (
@@ -16,13 +16,13 @@ function StudentList() {
         <thead>
           <tr>
             <th>Name</th>
-            <th>Email</th>
-            <th>Contact</th>
+            <th>Email ID</th>
+            <th>Phone NO</th>
           </tr>
         </thead>
         <tbody>
-          {students.map((data) => (
-            <tr>
+          {students.map((data, index) => (
+            <tr key={index}>
               <td>{data.name}</td>
               <td>{data.email}</td>
               <td>{data.contact}</td>
