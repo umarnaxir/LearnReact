@@ -1,0 +1,35 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  box-sizing: border-box;
+}
+
+.char-count {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.typing {
+  color: green;
+  font-style: italic;
+}
+
+.stopped {
+  color: red;
+  font-style: italic;
+}

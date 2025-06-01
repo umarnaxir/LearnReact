@@ -4,7 +4,10 @@ import BasicMap from "@/Components/Map/BasicMap"
 import StudentList from "@/Components/Map/Table"
 import MyAccordion from "@/Components/Map/Accordion";
 import CounterBox from "@/Components/Hooks/useState/CounterBox";
-import UpdateData from "@/Components/Hooks/useState/UpdateData"
+import UpdateData from "@/Components/Hooks/useState/UpdateData";
+import TimeOut from "@/Components/Hooks/useEffect/TimeOut";
+import CharacterCounter from "@/Components/Hooks/useEffect/CharacterCounter";
+import "../styles/CharacterCounter.css";
 import "../styles/CounterBox.css";
 import "../styles/UpdateData.css";
 
@@ -16,8 +19,10 @@ export default function Home() {
       <BasicMap/>
       <StudentList/>
       <MyAccordion/> */}
-      <CounterBox/>
-      <UpdateData/>
+      {/* <CounterBox/>
+      <UpdateData/> */}
+      <TimeOut/>
+      <CharacterCounter/>
     </div>
   );
 }
