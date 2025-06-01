@@ -20,9 +20,9 @@ function MyAccordion() {
 
   const toggleAccordion = (index) => {
     if (openIndex === index) {
-      setOpenIndex(null); // Close if already open
+      setOpenIndex(null);
     } else {
-      setOpenIndex(index); // Open the clicked one
+      setOpenIndex(index);
     }
   };
 
