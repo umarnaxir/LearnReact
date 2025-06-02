@@ -14,7 +14,7 @@ function TimeOut() {
 
   useEffect(() => {
     console.log("refreshed");
-  });
+  },[]);
 
   return (
     <div>

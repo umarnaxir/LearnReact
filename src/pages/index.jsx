@@ -11,6 +11,9 @@ import "../styles/CharacterCounter.css";
 import "../styles/CounterBox.css";
 import "../styles/UpdateData.css";
 import CombineAge from "@/Components/Hooks/CombinAge"
+import Fetch from "@/Components/Hooks/Fetch";
+import Increment from "@/Components/Hooks/useEffect/increment";
+import { Counter } from "@/Components/Hooks/useRef/counter";
 
 export default function Home() {
   return (
@@ -19,12 +22,15 @@ export default function Home() {
       <App/>
       <BasicMap/>
       <StudentList/>
-      <MyAccordion/> */}
-      {/* <CounterBox/>
-      <UpdateData/> */}
+      // <MyAccordion/> */}
+      {/* <CounterBox/> */}
+      {/* <UpdateData/> */}
       {/* <TimeOut/> */}
       {/* <CharacterCounter/> */}
-      <CombineAge/>
+      {/* <CombineAge/> */}
+      {/* <Fetch/> */}
+      {/* <Increment/> */}
+      <Counter/>
     </div>
   );
 }
