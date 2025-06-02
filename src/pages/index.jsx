@@ -10,6 +10,7 @@ import CharacterCounter from "@/Components/Hooks/useEffect/CharacterCounter";
 import "../styles/CharacterCounter.css";
 import "../styles/CounterBox.css";
 import "../styles/UpdateData.css";
+import CombineAge from "@/Components/Hooks/CombinAge"
 
 export default function Home() {
   return (
@@ -21,8 +22,9 @@ export default function Home() {
       <MyAccordion/> */}
       {/* <CounterBox/>
       <UpdateData/> */}
-      <TimeOut/>
-      <CharacterCounter/>
+      {/* <TimeOut/> */}
+      {/* <CharacterCounter/> */}
+      <CombineAge/>
     </div>
   );
 }
