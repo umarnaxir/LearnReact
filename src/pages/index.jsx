@@ -14,7 +14,8 @@ import CombineAge from "@/Components/Hooks/CombinAge"
 import Fetch from "@/Components/Hooks/Fetch";
 import Increment from "@/Components/Hooks/useEffect/increment";
 import { Counter } from "@/Components/Hooks/useRef/counter";
-
+import { AccessElement } from "@/Components/Hooks/useRef/AccessElement";
+import Custom from "@/Components/Hooks/Custom Hook/Custom"
 export default function Home() {
   return (
     <div>
@@ -30,7 +31,9 @@ export default function Home() {
       {/* <CombineAge/> */}
       {/* <Fetch/> */}
       {/* <Increment/> */}
-      <Counter/>
+      {/* <Counter/> */}
+      {/* <AccessElement/> */}
+      <Custom/>
     </div>
   );
 }
