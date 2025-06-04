@@ -1,10 +1,13 @@
 import Post from "@/Components/Hooks/Custom Hook/Fetch";
+import Counter from "@/Components/Re-rendering/Counter";
+import Basic from "@/Components/Re-rendering/Basic"
 
 export default function App() {
   return (
     <div>
-      <h1>Fetched API</h1>
-      <Post/>
+      {/* <Post/> */}
+      <Counter/>
+      {/* <Basic/> */}
     </div>
   );
 }
