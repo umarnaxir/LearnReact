@@ -1,40 +1,146 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 🚀 LearnReact – From Basics to MNC-Level Mastery
 
-## Getting Started
+Welcome to the **LearnReact** repository — a structured, project-based roadmap to help you become a **job-ready React developer** in **8 weeks**. Whether you're starting from scratch or revisiting concepts, this repo will guide you through everything step by step.
 
-First, run the development server:
+---
+
+## 📚 React Syllabus – Beginner to Advanced
+
+### 🔹 1. Prerequisites
+- HTML5 & CSS3
+- JavaScript (ES6+)
+- DOM Manipulation
+- Git & GitHub
+
+### 🔹 2. React Basics
+- What is React?
+- JSX
+- Components (Functional & Class)
+- Props & State
+- Event Handling
+- Conditional Rendering
+- List Rendering (`map`)
+- Forms & Inputs
+- Lifting State Up
+
+### 🔹 3. React Hooks
+- `useState`, `useEffect`
+- `useContext`, `useRef`
+- `useReducer`, `useMemo`, `useCallback`
+
+### 🔹 4. Project-Based Learning
+- Todo App
+- Weather App
+- Movie Search App
+- Blog App
+- Calculator
+
+### 🔹 5. React Router
+- React Router DOM
+- Routes, Links, Nested Routing
+- Route Parameters & Protected Routes
+
+### 🔹 6. Forms and Validation
+- Controlled vs Uncontrolled Forms
+- `react-hook-form` & `yup`
+
+### 🔹 7. State Management
+- Context API
+- Redux Toolkit
+- Zustand
+- MobX (optional)
+
+### 🔹 8. Data Fetching
+- Fetch API / Axios
+- Custom Hooks
+- React Query / SWR
+
+### 🔹 9. Component Architecture
+- Reusable Components
+- HOC & Render Props
+- Compound Components
+
+### 🔹 10. Styling in React
+- CSS Modules
+- Styled Components
+- Tailwind CSS
+- Chakra UI
+
+### 🔹 11. Performance Optimization
+- Lazy Loading, Code Splitting
+- `React.memo`, `useMemo`, `useCallback`
+- React DevTools Profiler
+
+### 🔹 12. Testing
+- Jest
+- React Testing Library
+- MSW
+- Cypress (Optional)
+
+### 🔹 13. Deployment
+- Vercel / Netlify
+- GitHub Pages
+- Environment Variables
+
+### 🔹 14. TypeScript with React
+- Typing Props & State
+- Custom Hooks with Types
+- Generics
+
+### 🔹 15. React + Backend
+- Node.js + Express
+- Firebase
+- JWT Authentication
+- CRUD with MongoDB
+
+### 🔹 16. Advanced Topics
+- Next.js (SSR)
+- SEO in React
+- Accessibility (a11y)
+- PWA
+- Web Security (XSS, CSRF)
+
+---
+
+## 📅 8-Week React Roadmap
+
+| Week | Focus | Topics | Project |
+|------|-------|--------|---------|
+| 🟨 **Week 1** | HTML, CSS, JS Refresher | Flexbox, Grid, ES6 | Small DOM Projects |
+| 🟦 **Week 2** | React Fundamentals | JSX, Props, State, Forms | Todo List / Form |
+| 🟩 **Week 3** | React Hooks | useState, useEffect, Context | Notes App / Blog App |
+| 🟧 **Week 4** | Routing & Fetching | Router v6, Axios, useFetch | Blog Viewer |
+| 🟪 **Week 5** | State Management | Redux Toolkit, Zustand | Shopping Cart |
+| 🟥 **Week 6** | Styling + Optimization | Tailwind, Memoization | UI Clone (Netflix/Weather) |
+| 🟫 **Week 7** | Advanced Concepts | TypeScript, Validation, Auth | Auth Dashboard |
+| ⚫ **Week 8** | Finalization & Interview Prep | Testing, Hosting, FAQs | Final Portfolio |
+
+---
+
+## ⏱️ Daily Study Schedule (Recommended)
+
+| Task | Time |
+|------|------|
+| 📘 Core React Learning | 2 hrs |
+| 🔨 Projects & Practice | 1 hr |
+| 🧠 Reading / Debugging | 30 mins |
+| 🧩 LeetCode / Interview Prep | 30 mins |
+
+---
+
+## 🔨 Projects You Must Build
+
+- ✅ **Todo App (CRUD)**
+- ✅ **Blog Viewer (API + Routing)**
+- ✅ **Weather App**
+- ✅ **Auth App (Login/Register + Protected Routes)**
+- ✅ **Shopping Cart (Redux)**
+- ✅ **Final Portfolio / Resume Website (Hosted)**
+
+---
+
+## 📦 How to Use This Repo
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+git clone https://github.com/your-username/LearnReact.git
+cd LearnReact
