@@ -1,12 +1,14 @@
-import Post from "@/Components/Hooks/Custom Hook/Fetch";
-import Counter from "@/Components/Re-rendering/Counter";
-import Basic from "@/Components/Re-rendering/Basic"
-export default function App() {
+import React from 'react';
+import Agent from '@/Components/AI Agent/Agent';
+import '../styles/agent.css';
+
+function App() {
   return (
-    <div>
-      {/* <Post/> */}
-      <Counter/>
-      {/* <Basic/> */}
+    <div className="app">
+      <h1 className="app-title">🍽️ AI Ordering Agent (India)</h1>
+      <Agent />
     </div>
   );
 }
+
+export default App;
