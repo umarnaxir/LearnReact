@@ -1,10 +1,23 @@
 import React from 'react';
-import Counter from '@/Components/Re-rendering/Counter';
-
+import basic, { HelloWorld } from '../Components/basic.jsx';
 function App() {
   return (
     <div>
-      <Counter />
+      <h1>Welcome to My App</h1>
+      <p>This is a simple React application.</p>
+      <style>
+        {`
+          h1 {
+            color: blue;
+          }
+          p {
+            font-size: 18px;
+            color: green;
+          }
+            
+        `}
+      </style>
+      <HelloWorld />
     </div>
   );
 }
