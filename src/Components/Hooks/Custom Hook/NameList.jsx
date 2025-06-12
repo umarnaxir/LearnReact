@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import useLocalStorageList from "../Custom Hook/useLocalStorage";
+import useLocalStorageList from "./useLocalStorage";
 
 function NameList() {
   const [name, setName] = useState("");
@@ -14,7 +14,7 @@ function NameList() {
   };
 
   return (
-    <div style={{ padding: 20 }}>
+    <div style={{ padding: 20}}>
       <h2>Stored Names:</h2>
       <ul>
         {names.map((n, i) => (
