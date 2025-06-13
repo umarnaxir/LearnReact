@@ -1,14 +1,11 @@
 import React from 'react';
-import CharacterCounter from '@/Components/Hooks/useEffect/CharacterCounter';
-import UpdateData from '@/Components/Hooks/useState/UpdateData';
-import NameList from '@/Components/Hooks/Custom Hook/NameList';
-import Counter from '@/Components/Counter';
+import User from '@/Components/Props/User';
 function App() {
   return (
     <div>
-      {/* <CharacterCounter />
-      <UpdateData /> */}
-      <Counter/>
+      <h1>Props in React Js</h1>
+      <hr></hr>
+      <User name = "Umar" phone={7051732616} email={"umar@gmail.com"}/>
     </div>
   );
 }
