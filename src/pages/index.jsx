@@ -1,9 +1,9 @@
 import React from 'react';
-import UsingAnd from '@/Components/Conditions/UsingAnd';
+import TernaryOperator from '@/Components/Conditions/TernaryOperator';
 function App() {
   return (
     <div>
-      <UsingAnd/>
+      <TernaryOperator/>
     </div>
   );
 }
