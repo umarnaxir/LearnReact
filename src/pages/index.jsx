@@ -1,9 +1,9 @@
 import React from 'react';
-import MultipleUseStates from '../Components/Hooks/useState/MultipleUseStates';
+import Form from '../Components/Hooks/useState/FormSubmission';
 function App() {
   return (
     <div>
-      <MultipleUseStates />
+      <Form />
     </div>
   );
 }
