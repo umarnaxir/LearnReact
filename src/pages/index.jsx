@@ -1,9 +1,9 @@
 import React from 'react';
-import UsingIF from '@/Components/Conditions/UsingIF';
+import UsingAnd from '@/Components/Conditions/UsingAnd';
 function App() {
   return (
     <div>
-      <UsingIF/>
+      <UsingAnd/>
     </div>
   );
 }
