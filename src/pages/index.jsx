@@ -1,9 +1,9 @@
 import React from 'react';
-import StudentList from '@/Components/05_Map/List';
+import ToDo from '@/Components/05_Map/ToDo';
 function App() {
   return (
     <div>
-      <StudentList/>
+      <ToDo/>
     </div>
   );
 }
