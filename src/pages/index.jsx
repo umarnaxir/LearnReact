@@ -1,9 +1,9 @@
 import React from 'react';
-import PasswordField from '@/Components/Conditions/PasswordField';
+import StudentList from '@/Components/05_Map/List';
 function App() {
   return (
     <div>
-      <PasswordField/>
+      <StudentList/>
     </div>
   );
 }
