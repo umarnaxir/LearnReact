@@ -1,9 +1,9 @@
 import React from 'react';
-import TernaryOperator from '@/Components/Conditions/TernaryOperator';
+import PasswordField from '@/Components/Conditions/PasswordField';
 function App() {
   return (
     <div>
-      <TernaryOperator/>
+      <PasswordField/>
     </div>
   );
 }
