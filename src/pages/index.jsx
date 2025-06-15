@@ -1,9 +1,9 @@
 import React from 'react';
-import SimpleForm from '@/Components/06_Contolled Components/SimpleForm';
+import AdvanceForm from '@/Components/06_Contolled Components/AdvanceForm';
 function App() {
   return (
     <div>
-      <SimpleForm/>
+      <AdvanceForm/>
     </div>
   );
 }
