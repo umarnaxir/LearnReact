@@ -1,9 +1,9 @@
 import React from 'react';
-import AdvanceForm from '@/Components/06_Contolled Components/AdvanceForm';
+import BasicEvent from '@/Components/Event Handlers/BasicEvent';
 function App() {
   return (
     <div>
-      <AdvanceForm/>
+      <BasicEvent/>
     </div>
   );
 }
