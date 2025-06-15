@@ -1,9 +1,9 @@
 import React from 'react';
-import ToDo from '@/Components/05_Map/ToDo';
+import SimpleForm from '@/Components/06_Contolled Components/SimpleForm';
 function App() {
   return (
     <div>
-      <ToDo/>
+      <SimpleForm/>
     </div>
   );
 }
