@@ -1,9 +1,10 @@
 import React from 'react';
-import BasicEvent from '@/Components/Event Handlers/BasicEvent';
+import styles from '../styles/Form.css';
+import Form from '@/Components/Tasks/Form';
 function App() {
   return (
     <div>
-      <BasicEvent/>
+      <Form />
     </div>
   );
 }
