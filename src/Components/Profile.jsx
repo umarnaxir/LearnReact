@@ -1,21 +1,29 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function Profile() {
   const [loggedIn, setIsLoggedIn] = useState(false);
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const [user, setUser] = useState("");
+  const [user, setUser] = useState(null);
   const [error, setError] = useState("");
 
   const validUsers = {
     Suhaib: "suhaib123",
-    Umar: "umar123",
+    Umar: "11",
     Owais: "owais123",
     Wajahat: "wajahat123",
     Imran: "imran123",
     Iqram: "iqram123",
     Shabaz: "shabaz123",
   };
+
+  useEffect(() => {
+    const storedUser = localStorage.getItem("user");
+    if (storedUser) {
+      setUser(JSON.parse(storedUser));
+      setIsLoggedIn(true);
+    }
+  }, []);
 
   const handleLogin = () => {
     const addUsername = username.trim();
@@ -27,8 +35,10 @@ function Profile() {
     }
 
     if (validUsers[addUsername] === addPassword) {
-      setUser({ username: addUsername });
+      const loggedInUser = { username: addUsername };
+      setUser(loggedInUser);
       setIsLoggedIn(true);
+      localStorage.setItem("user", JSON.stringify(loggedInUser));
       setUsername("");
       setPassword("");
       setError("");
