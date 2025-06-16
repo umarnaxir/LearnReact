@@ -4,7 +4,7 @@ function Profile() {
   const [loggedIn, setIsLoggedIn] = useState(false);
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState("");
   const [error, setError] = useState("");
 
   const validUsers = {
@@ -18,16 +18,16 @@ function Profile() {
   };
 
   const handleLogin = () => {
-    const trimmedUsername = username.trim();
-    const trimmedPassword = password.trim();
+    const addUsername = username.trim();
+    const addPassword = password.trim();
 
-    if (!trimmedUsername || !trimmedPassword) {
+    if (!addUsername || !addPassword) {
       setError("Username and Password are required");
       return;
     }
 
-    if (validUsers[trimmedUsername] === trimmedPassword) {
-      setUser({ username: trimmedUsername });
+    if (validUsers[addUsername] === addPassword) {
+      setUser({ username: addUsername });
       setIsLoggedIn(true);
       setUsername("");
       setPassword("");
@@ -70,7 +70,6 @@ function Profile() {
               value={username}
               onChange={(e) => setUsername(e.target.value)}
               className="input"
-              onKeyPress={(e) => e.key === "Enter" && handleLogin()}
             />
             <input
               type="password"
@@ -78,7 +77,6 @@ function Profile() {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               className="input"
-              onKeyPress={(e) => e.key === "Enter" && handleLogin()}
             />
             {error && <p className="error">{error}</p>}
             <button onClick={handleLogin} className="btn login-btn">
