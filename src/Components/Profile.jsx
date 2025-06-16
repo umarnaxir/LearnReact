@@ -8,13 +8,13 @@ function Profile() {
   const [error, setError] = useState("");
 
   const validUsers = {
-    Suhaib: "suhaib123",
-    Umar: "11",
-    Owais: "owais123",
-    Wajahat: "wajahat123",
-    Imran: "imran123",
-    Iqram: "iqram123",
-    Shabaz: "shabaz123",
+    Suhaib: "1100",
+    Umar: "1100",
+    Owais: "1100",
+    Wajahat: "1100",
+    Imran: "1100",
+    Iqram: "1100",
+    Shabaz: "1100",
   };
 
   useEffect(() => {
