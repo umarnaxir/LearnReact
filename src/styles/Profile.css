@@ -1,8 +1,8 @@
 .container {
-  max-width: 400px;
+  max-width: 300px;
   margin: 50px auto;
   padding: 30px;
-  background-color: #ffffff;
+  background-color: #ebe8e8;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   font-family: Arial, sans-serif;
@@ -12,11 +12,11 @@
   text-align: center;
   margin-bottom: 20px;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 .title.login {
-  color: #007bff;
+  color: #045bb7;
 }
 
 .title.success {
